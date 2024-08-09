@@ -1,0 +1,32 @@
+.reset-head{
+    color: #0262c9;
+    font-weight: 600;
+    margin-right: 16px;
+}
+.part{
+    display: flex;
+    width: 160px;
+    height: 45px;
+    padding: 4px 4px;
+    border-radius: 14px;
+    background-color: #f2f4fa;
+
+}
+.ico{
+    width: 40px;
+    height: 32px;
+    margin-left: 10px;
+    background-color: rgb(224, 230, 230);
+    border-radius: 14px;
+    text-align: center;
+    padding-top: 5px;
+    color: #0262c9;
+}
+.spn{
+    color: #0262c9;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 10px;
+
+    
+}
