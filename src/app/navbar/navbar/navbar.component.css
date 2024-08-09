@@ -1,0 +1,117 @@
+.card-custom {
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    height: 90px;
+    margin-top: 10px;
+    position: relative;
+    
+}
+.card-custom1 {
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    height: 45px;
+    width: 80%;
+    margin-top: 10px;
+   
+   
+    
+}
+.login-info1 {
+    font-size: 0.8rem;
+    text-align: end;
+
+    
+    
+}
+
+
+.profile-pic {
+    width: 80px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -37%;
+    left:3%;
+}
+
+
+.user-email {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.login-info {
+    font-size: 0.8rem;
+    text-align: end;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.language-selector {
+    display: inline-flex;
+    align-items: center;
+    background-color: #e5eaf5;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.right{
+    position: absolute;
+    right: 220px;
+    top: 5px;
+}
+
+.language-selector select {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #007bff;
+    outline: none;
+    cursor: pointer;
+    margin-right: 5px;
+    padding: 5px 10px;
+}
+
+.selector-img {
+ 
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:500px) and (max-width:600px) {
+    .profile-pic {
+        width: 50px;
+        height: 60px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -26%;
+        left: 3%;
+      }
+}
+
+@media screen and (min-width:601px) and (max-width:700px) {
+    .profile-pic {
+        width: 60px;
+        height: 70px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -26%;
+        left: 3%;
+      }
+}

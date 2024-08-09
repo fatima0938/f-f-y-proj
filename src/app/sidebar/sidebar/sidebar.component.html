@@ -1,1 +1,194 @@
-<p>sidebar works!</p>
+<!-- sidebar.component.html -->
+<div class="d-flex flex-column" id="sidebar-container">
+    <!-- Toggle button for small screens -->
+    
+  
+    <!-- Sidebar -->
+    <div class="position">
+      <button
+      (click)="toggleStyle()"
+      [ngClass]="{ changed: isChanged }"
+      (click)="toggleDivs()"
+      href="/"
+      class="text-white text-decoration-none logo-button"
+    >
+  
+      
+    </button>
+    <img [ngClass]="{ changed: isChanged }" (click)="toggleStyle()" (click)="toggleDivs()" src="../../../assets/images/596d7b0478995e46f7f657f35f4f5735.png" alt="" class="logo-img">
+    </div>
+    <!-- <button class="p-3 mb-4 logo">
+      <img src="your-logo-url" alt="Logo" class="img-fluid">
+    </button> -->
+    <div
+      *ngIf="showFirstDiv"
+      class="d-flex flex-column align-items-center bg-primary text-white sidebar-wrapper"
+      id="sidebar-wrapper"
+    >
+      <div class="nav flex-column text-center w-100">
+        <a routerLink="" class="nav-link text-white my-2">
+          <i class="bi bi-house-door-fill"></i>
+        </a>
+        <a routerLink="" class="nav-link text-white my-2">
+          <i class="bi bi-grid-fill"></i>
+        </a>
+        <a routerLink="" class="nav-link text-white my-2">
+          <i class="bi bi-box-fill"></i>
+        </a>
+        <a routerLink="" class="nav-link text-white my-2">
+          <i class="bi bi-cart-fill"></i>
+        </a>
+        <a routerLink="" class="nav-link text-white my-2">
+          <i class="bi bi-chat-fill"></i>
+        </a>
+        <a routerLink="" class="nav-link text-white my-2">
+          <i class="bi bi-gear-fill"></i>
+        </a>
+        <a routerLink="addcurrency" class="nav-link text-white my-2">
+          <i class="fas fa-yen-sign "></i>
+        </a>
+        <a routerLink="addproject" class="nav-link text-white my-2">
+          <i class="fas fa-project-diagram "></i>
+        </a>
+        <a routerLink="permissions" class="nav-link text-white my-2">
+          <i class="fas fa-lock-open "></i>
+        </a>
+        <a routerLink="profile" class="nav-link text-white my-2">
+          <i class="fas fa-user-circle "></i>
+        </a>
+        <a routerLink="register" class="nav-link text-white my-2">
+          <i class="far fa-registered"></i>
+        </a>
+        <a routerLink="resetpassword" class="nav-link text-white my-2">
+          <i class="fas fa-lock"></i>
+        </a>
+        <a routerLink="**" class="nav-link text-white my-2">
+        <i class="fas fa-times"></i>
+        </a>
+      </div>
+      <div class="mt-auto p-3">
+        <img
+          src="your-profile-pic-url"
+          alt="Profile"
+          class="rounded-circle img-fluid"
+        />
+      </div>
+    </div>
+  </div>
+  
+  <!--  -->
+  
+  <div
+    *ngIf="showSecondDiv"
+    class="d-flex flex-column p-3 text-white bg-primary sidebar"
+    
+    id="sidebar"
+  >
+    <ul class="nav nav-pills flex-column mb-auto">
+      <li class="nav-item">
+        <a href="#" class="nav-link text-white active">
+          <i class="bi bi-house-door"></i>
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <i class="bi bi-database"></i>
+          Database
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <i class="bi bi-box-seam"></i>
+          Your Products
+        </a>
+      </li>
+      <li>
+        <a routerLink="addcost" class="nav-link text-white">
+          <i class="bi bi-cart"></i>
+          Selling Mode
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <i class="bi bi-truck"></i>
+          Orders
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <i class="bi bi-people"></i>
+          Accounts
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <i class="bi bi-chat-dots"></i>
+          Support Centre
+        </a>
+      </li>
+      <li>
+        <a routerLink="addcurrency" class="nav-link text-white">
+          <i class="fas fa-yen-sign "></i>
+          add currency
+        </a>
+      </li>
+      <li>
+        <a routerLink="addproject" class="nav-link text-white">
+          <i class="fas fa-project-diagram "></i>
+          add project
+        </a>
+      </li>
+      <li>
+        <a routerLink="permissions" class="nav-link text-white">
+          <i class="fas fa-lock-open "></i>
+          permissions
+        </a>
+      </li>
+      <li>
+        <a routerLink="profile" class="nav-link text-white">
+          <i class="fas fa-user-circle "></i>
+          profile
+        </a>
+      </li>
+      <li>
+        <a routerLink="register" class="nav-link text-white">
+          <i class="far fa-registered"></i>
+          register
+        </a>
+      </li>
+     
+      <li>
+        <a routerLink="resetpassword" class="nav-link text-white">
+          <i class="fas fa-lock"></i>
+          reset pass
+        </a>
+      </li>
+      <li>
+        <a routerLink="**" class="nav-link text-white">
+          <i class="fas fa-times"></i>
+          error
+        </a>
+      </li>
+    </ul>
+  
+    <div class="down d-flex p-4">
+      <a
+        href="#"
+        class="d-flex align-items-center text-white text-decoration-none"
+      >
+        <img
+          src="../../../assets/images/user-1.jpg"
+          alt="user"
+          class="rounded-circle me-1"
+        />
+        <strong>Logout</strong>
+      </a>
+     <div class="d-md-flex d-none ms-2 align-items-center justify-content-center icons">
+      <a href=""><i class="fas fa-cog fa-lg mx-3"></i></a>
+      <a href=""><i class="far fa-bell fa-lg mx-3"></i></a>
+      <a href=""><i class="fas fa-search fa-lg mx-3"></i></a>
+     </div>
+    </div>
+  </div>
+  
