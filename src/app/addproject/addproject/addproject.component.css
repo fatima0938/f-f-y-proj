@@ -1,7 +1,7 @@
 
 .card {
-    width: 520px;
-    height: 620px;
+    width: 720px;
+    height: 640px;
     margin:auto;
     margin-top: 60px;
     text-align: center;
@@ -70,8 +70,8 @@
 }
 .buttomm{
     display: flex;
-    margin-top: 20px;
-    padding-right: 100px;
+    margin-top: 30px;
+    margin: auto;
 }
 .btn1{
     width: 170px;
