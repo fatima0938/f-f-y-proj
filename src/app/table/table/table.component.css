@@ -135,81 +135,21 @@ border-radius: 10px;
 
 }
 @media screen and (min-width:500px) and (max-width:600px) {
-   .main-title{
-    Top: 445px;
-    right: 80px;
-   }
-   .table{
-    width: 415px;
-   }
-   table,th,td{
-    padding: 5px 5px;
-    font-size: 10px;
-}
-table{
-    width: 415px;
-
-}
-tbody i{
-    padding-top:0px ;
-}
-tbody p{
-    padding-top: 6px;
-}
-.layer{
-    width: 50%;
- position: absolute;
- top: 500px;
- right: 23px;
-    
-}
-.head1 , .head2{
-    width: 30%;
-    margin-right: -5px;
-}
-.head2{
-    margin-right: -15px;
-}
-.head1 .view{
-    width: 35px;
-height: 35px;
-margin-top: 15px;
-}
-.head1 .view p{
-    margin-top: -4px;
-}
-.input-me{
-    width: 150px;
-height: 35px;
-margin-top: 15px;
-}
-.input-me::placeholder{
-    font-size: 15px;
-}
-.btn-me{
-    margin-right: 3px;
-    width: 70px;
-    height: 35px;
-    margin-top: 15px;
-}
-.table-header{
-    width: 75%;
-}
-}
-@media screen and (min-width:601px) and (max-width:750px) {
     .main-title{
      Top: 445px;
      right: 80px;
     }
     .table{
-     width: 550px;
+     width: 415px;
     }
     table,th,td{
      padding: 5px 5px;
      font-size: 10px;
  }
+ table{
+     width: 415px;
  
- 
+ }
  tbody i{
      padding-top:0px ;
  }
@@ -217,7 +157,7 @@ margin-top: 15px;
      padding-top: 6px;
  }
  .layer{
-     width: 67%;
+     width: 415px;
   position: absolute;
   top: 500px;
   right: 23px;
@@ -227,18 +167,6 @@ margin-top: 15px;
      width: 30%;
      margin-right: -5px;
  }
-
-
- .head1 h4 {
-    margin: 0px 8px;
-      margin-top: 0px;
-    color: #8989A2;
-    font-size: 12px;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 12px;
-  }
-
  .head2{
      margin-right: -15px;
  }
@@ -250,120 +178,179 @@ margin-top: 15px;
  .head1 .view p{
      margin-top: -4px;
  }
- .input-me {
-    width: 124px;
-    height: 35px;
-    margin-top: 15px;
+ .input-me{
+     width: 150px;
+ height: 35px;
+ margin-top: 15px;
+ }
+ .input-me::placeholder{
+     font-size: 15px;
+ }
+ .btn-me{
+     margin-right: 3px;
+     width: 70px;
+     height: 35px;
+     margin-top: 15px;
+ }
+ .table-header{
+     width: 75%;
+ }
+ }
+ @media screen and (min-width:601px) and (max-width:750px) {
+     .main-title{
+      Top: 445px;
+      right: 80px;
+     }
+     .table{
+      width: 550px;
+     }
+     table,th,td{
+      padding: 5px 5px;
+      font-size: 10px;
+  }
+  table{
+      width: 550px;
   
   }
- 
- .input-me::placeholder{
-     font-size: 12px;
- }
- .btn-me {
-    margin-right: 3px;
-    width: 49px;
-    height: 35px;
-    margin-top: 15px;
-    margin-right: 3px;
-    font-size: 9px;
+  tbody i{
+      padding-top:0px ;
   }
- .table-header{
-     width: 75%;
- }
- }
- @media screen and (min-width:751px) and (max-width:950px) {
-    .main-title{
-        Top: 415px;
-     right: 80px;
-    }
-    .table{
-     width: 680px;
-    }
-    table,th,td{
-     padding: 5px 5px;
- }
- table{
-     width: 680px;
+  tbody p{
+      padding-top: 6px;
+  }
+  .layer{
+      width: 550px;
+   position: absolute;
+   top: 500px;
+   right: 23px;
+      
+  }
+  .head1 , .head2{
+      width: 30%;
+      margin-right: -5px;
+  }
+  .head2{
+      margin-right: -15px;
+  }
+  .head1 .view{
+      width: 35px;
+  height: 35px;
+  margin-top: 15px;
+  }
+  .head1 .view p{
+      margin-top: -4px;
+  }
+  .input-me{
+      width: 150px;
+  height: 35px;
+  margin-top: 15px;
+  }
+  .input-me::placeholder{
+      font-size: 15px;
+  }
+  .btn-me{
+      margin-right: 3px;
+      width: 70px;
+      height: 35px;
+      margin-top: 15px;
+      margin-right: 25px;
+  }
+  .table-header{
+      width: 75%;
+  }
+  }
+  @media screen and (min-width:751px) and (max-width:950px) {
+     .main-title{
+      Top: 400px;
+      right: 80px;
+     }
+     .table{
+      width: 680px;
+     }
+     table,th,td{
+      padding: 5px 5px;
+  }
+  table{
+      width: 680px;
+  
+  }
+  tbody i{
+      padding-top:0px ;
+  }
+  tbody p{
+      padding-top: 6px;
+  }
+  .layer{
+      width: 680px;
+   position: absolute;
+   top: 440px;
+   right: 23px;
+      
+  }
+  .head1 , .head2{
+      width: 30%;
+      margin-right: -5px;
+  }
+  .head2{
+      margin-right: -15px;
+  }
+  .head1 .view{
+      width: 35px;
+  height: 35px;
+  margin-top: 15px;
+  }
+  .head1 .view p{
+      margin-top: -4px;
+  }
  
- }
- tbody i{
-     padding-top:0px ;
- }
- tbody p{
-     padding-top: 6px;
- }
- .layer{
-     width: 50%;
-  position: absolute;
-  top: 460px;
-  right: 26px;
-     
- }
- .head1 , .head2{
-     width: 30%;
-     margin-right: -5px;
- }
- .head2{
-     margin-right: -15px;
- }
- .head1 .view{
-     width: 35px;
- height: 35px;
- margin-top: 15px;
- }
- .head1 .view p{
-     margin-top: -4px;
- }
-
- .table-header{
-     width: 75%;
- }
- }@media screen and (min-width:951px) and (max-width:1050px) {
-    .main-title{
-        Top: 337px;
-     right: 80px;
-    }
-    .table{
-     width: 750px;
-    }
-    table,th,td{
-     padding: 5px 5px;
- }
- table{
-     width: 750px;
+  .table-header{
+      width: 75%;
+  }
+  }@media screen and (min-width:951px) and (max-width:1050px) {
+     .main-title{
+      Top: 350px;
+      right: 80px;
+     }
+     .table{
+      width: 750px;
+     }
+     table,th,td{
+      padding: 5px 5px;
+  }
+  table{
+      width: 750px;
+  
+  }
+  tbody i{
+      padding-top:0px ;
+  }
+  tbody p{
+      padding-top: 6px;
+  }
+  .layer{
+      width: 750px;
+   position: absolute;
+   top: 380px;
+   right: 23px;
+      
+  }
+  .head1 , .head2{
+      width: 30%;
+      margin-right: -5px;
+  }
+  .head2{
+      margin-right: -15px;
+  }
+  .head1 .view{
+      width: 35px;
+  height: 35px;
+  margin-top: 15px;
+  }
+  .head1 .view p{
+      margin-top: -4px;
+  }
  
- }
- tbody i{
-     padding-top:0px ;
- }
- tbody p{
-     padding-top: 6px;
- }
- .layer{
-     width: 750px;
-  position: absolute;
-  top: 380px;
-  right: 23px;
-     
- }
- .head1 , .head2{
-     width: 30%;
-     margin-right: -5px;
- }
- .head2{
-     margin-right: -15px;
- }
- .head1 .view{
-     width: 35px;
- height: 35px;
- margin-top: 15px;
- }
- .head1 .view p{
-     margin-top: -4px;
- }
-
- .table-header{
-     width: 75%;
- }
- }
+  .table-header{
+      width: 75%;
+  }
+  }
