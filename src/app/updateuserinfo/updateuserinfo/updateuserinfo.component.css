@@ -1,0 +1,96 @@
+body{
+    direction: rtl;
+}
+.input1{
+    margin-top: 100px !important;
+    width:60%;
+    margin: auto;
+    border: 1px solid rgb(241, 241, 241);
+    padding: 15px;
+    box-shadow: 1px 1px 5px rgb(202, 202, 202);
+}
+.input-group input{
+padding: 15px;
+border-radius: 10px;
+}
+.input-group input::placeholder{
+    color: rgb(163, 163, 163);
+      }
+.input1 h3{
+    text-align: center;
+    color: rgb(41, 98, 212);
+}
+.input-group  .final{
+    width: 100%;
+   
+}
+.first{
+    width: 51% !important;
+    
+}
+.btn1{
+    color: rgb(255, 255, 255);
+   width: 50%;
+   height: 50px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 184, 184);
+box-shadow: 1px 2px 5px rgb(149, 149, 149);
+}
+.btn2{
+    color: rgb(255, 255, 255);
+   width: 50%;
+   height: 50px;
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+box-shadow: 1px 2px 5px rgb(149, 149, 149);
+}
+.btns{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+.check{
+   position: absolute; 
+   top: 10%;
+   left: 55%;
+}
+.check input{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+ 
+}
+.all-one{
+    position: relative;
+   
+}
+
+
+
+
+
+
+@media screen and (min-width:500px) and (max-width:600px) {
+ 
+
+   .input1{
+    width: 100%;
+   }
+      .input-group input::placeholder{
+        font-size: 10px;
+      }
+}
+
+@media screen and (min-width:601px) and (max-width:750px) {
+   
+
+    .input1{
+        width: 100%;
+       }
+  
+      .input-group input::placeholder{
+        font-size: 12px;
+      }
+}
