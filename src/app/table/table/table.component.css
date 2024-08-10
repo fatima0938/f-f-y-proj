@@ -1,0 +1,356 @@
+*{
+    box-sizing: border-box;
+        /* overflow-x: hidden; */
+    
+}
+body{
+    position: relative;
+}
+.table{
+    display: block;
+    width: 868px;
+    height: 830px;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px 0px #74747429;
+    position: relative;
+    /*
+
+top: -10px;
+right: 255px;*/
+ margin-top: 50px;
+    direction: rtl;
+}
+.layer{
+    width: 869px;
+    height: 830px;
+ position: absolute;
+ top: 380px;
+ right: 73px;
+    background-color: #DDE4F5;
+    border-radius: 10px;
+    
+}
+.main-title{
+font-size: 14px;
+font-weight: 600;
+text-align: right;
+color: #1D4CBA;
+position: absolute;
+Top: 295px;
+right: 175px;
+}
+td img {
+    width: 36px;
+    height: 36px;
+    margin:0px 10px;
+    border-radius: 50%;
+}
+table,th,td{
+    padding: 5px 40px;
+    text-align: center;
+}
+table{
+    width: 868px;
+    text-align: right;
+    border-radius: 10px;
+}
+tbody{
+    color:#8989A2;
+}
+thead{
+    background-color: #EEF1FA;
+    color: #1D4CBA;
+}
+tbody tr:nth-child(even){
+    background-color: #EEF1FA;
+}
+.input-me{
+    width: 268px;
+height: 40px;
+border: 1px 0px 0px 0px;
+opacity: 0.5px;
+border: 1px solid #8989A2;
+border-radius: 15px;
+}
+.head1 , .head2{
+    width: 90%;
+    margin: auto;
+    margin-right: 30px;
+}
+.head2{
+    margin-left: 30px;
+}
+.head1 h4{
+    margin: 0px 10px;
+    color: #8989A2;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 12px;
+}
+.head1 .view{
+    width: 54px;
+height: 40px;
+border: 1px 0px 0px 0px;
+opacity: 0.5px;
+border: 1px solid #8989A2;
+border-radius: 15px;
+text-align: center;
+color:#8989A2;
+}
+
+.btn-me{
+    margin-right: 25px;
+    width: 152px;
+height: 40px;
+background-color:rgba(29, 76, 186, 0.502);
+border-radius: 15px;
+}
+.table-header{
+    justify-content: center;
+    
+    width: 100%;
+    height: 10%;
+   background-color: #fff;
+}
+tbody i{
+    padding-top:20px ;
+}
+tbody img{
+    margin-top: 10PX;
+}
+
+.statuse{
+    text-align: center;
+    margin-top: 10px;
+    padding: 2px;
+    background-color: #F5222D;
+    width: 70px;
+height: 30px;
+opacity: 50%;
+border-radius: 10px;
+}
+.online{
+    background-color: #1D4CBA;
+
+}
+@media screen and (min-width:500px) and (max-width:600px) {
+   .main-title{
+    Top: 445px;
+    right: 80px;
+   }
+   .table{
+    width: 415px;
+   }
+   table,th,td{
+    padding: 5px 5px;
+    font-size: 10px;
+}
+table{
+    width: 415px;
+
+}
+tbody i{
+    padding-top:0px ;
+}
+tbody p{
+    padding-top: 6px;
+}
+.layer{
+    width: 415px;
+ position: absolute;
+ top: 500px;
+ right: 23px;
+    
+}
+.head1 , .head2{
+    width: 30%;
+    margin-right: -5px;
+}
+.head2{
+    margin-right: -15px;
+}
+.head1 .view{
+    width: 35px;
+height: 35px;
+margin-top: 15px;
+}
+.head1 .view p{
+    margin-top: -4px;
+}
+.input-me{
+    width: 150px;
+height: 35px;
+margin-top: 15px;
+}
+.input-me::placeholder{
+    font-size: 15px;
+}
+.btn-me{
+    margin-right: 3px;
+    width: 70px;
+    height: 35px;
+    margin-top: 15px;
+}
+.table-header{
+    width: 75%;
+}
+}
+@media screen and (min-width:601px) and (max-width:750px) {
+    .main-title{
+     Top: 445px;
+     right: 80px;
+    }
+    .table{
+     width: 550px;
+    }
+    table,th,td{
+     padding: 5px 5px;
+     font-size: 10px;
+ }
+ table{
+     width: 550px;
+ 
+ }
+ tbody i{
+     padding-top:0px ;
+ }
+ tbody p{
+     padding-top: 6px;
+ }
+ .layer{
+     width: 550px;
+  position: absolute;
+  top: 500px;
+  right: 23px;
+     
+ }
+ .head1 , .head2{
+     width: 30%;
+     margin-right: -5px;
+ }
+ .head2{
+     margin-right: -15px;
+ }
+ .head1 .view{
+     width: 35px;
+ height: 35px;
+ margin-top: 15px;
+ }
+ .head1 .view p{
+     margin-top: -4px;
+ }
+ .input-me{
+     width: 150px;
+ height: 35px;
+ margin-top: 15px;
+ }
+ .input-me::placeholder{
+     font-size: 15px;
+ }
+ .btn-me{
+     margin-right: 3px;
+     width: 70px;
+     height: 35px;
+     margin-top: 15px;
+     margin-right: 25px;
+ }
+ .table-header{
+     width: 75%;
+ }
+ }
+ @media screen and (min-width:751px) and (max-width:950px) {
+    .main-title{
+     Top: 295px;
+     right: 80px;
+    }
+    .table{
+     width: 680px;
+    }
+    table,th,td{
+     padding: 5px 5px;
+ }
+ table{
+     width: 680px;
+ 
+ }
+ tbody i{
+     padding-top:0px ;
+ }
+ tbody p{
+     padding-top: 6px;
+ }
+ .layer{
+     width: 680px;
+  position: absolute;
+  top: 380px;
+  right: 23px;
+     
+ }
+ .head1 , .head2{
+     width: 30%;
+     margin-right: -5px;
+ }
+ .head2{
+     margin-right: -15px;
+ }
+ .head1 .view{
+     width: 35px;
+ height: 35px;
+ margin-top: 15px;
+ }
+ .head1 .view p{
+     margin-top: -4px;
+ }
+
+ .table-header{
+     width: 75%;
+ }
+ }@media screen and (min-width:951px) and (max-width:1050px) {
+    .main-title{
+     Top: 295px;
+     right: 80px;
+    }
+    .table{
+     width: 750px;
+    }
+    table,th,td{
+     padding: 5px 5px;
+ }
+ table{
+     width: 750px;
+ 
+ }
+ tbody i{
+     padding-top:0px ;
+ }
+ tbody p{
+     padding-top: 6px;
+ }
+ .layer{
+     width: 750px;
+  position: absolute;
+  top: 380px;
+  right: 23px;
+     
+ }
+ .head1 , .head2{
+     width: 30%;
+     margin-right: -5px;
+ }
+ .head2{
+     margin-right: -15px;
+ }
+ .head1 .view{
+     width: 35px;
+ height: 35px;
+ margin-top: 15px;
+ }
+ .head1 .view p{
+     margin-top: -4px;
+ }
+
+ .table-header{
+     width: 75%;
+ }
+ }
