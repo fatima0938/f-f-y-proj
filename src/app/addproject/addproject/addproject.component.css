@@ -37,10 +37,17 @@
 }
 .input1{
     width: 33%;
+    margin-left: 10px;
 }
 .input2{
     width: 58%;
     margin-left: 26px;
+}
+.cheecke{
+    margin-right: 35px;
+}
+.cheecke1{
+    margin-right: 45px; 
 }
 .form-input::placeholder{
     font-size: 12px;
@@ -91,4 +98,48 @@
     background-color: #eef0f0;
     color: rgb(110, 129, 170);
     border-color: transparent;
+}
+
+@media screen and (min-width:500px) and (max-width:800px) {
+
+    .card {
+        margin: auto;
+        width: 350px;
+        height:650px;
+        margin-top: 90px;
+        margin-bottom: 30px;
+        text-align: right;
+        padding: 35px 25px;
+        background-color: #fff;
+        border: 0px solid #ebf1f6;
+        border-radius: 12px;
+        box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    } 
+    .input1{
+        width: 48%;
+    }  
+    .cheecke{
+        margin-right: 2px;
+    }
+    .cheecke1{
+        margin-right: 2px; 
+    }
+ 
+}
+@media screen and (min-width:801px) and (max-width:1200px) {
+
+    .card {
+        margin: auto;
+        width: 450px;
+        height:650px;
+        margin-top: 90px;
+        margin-bottom: 30px;
+        text-align: right;
+        padding: 35px 25px;
+        background-color: #fff;
+        border: 0px solid #ebf1f6;
+        border-radius: 12px;
+        box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    }   
+ 
 }

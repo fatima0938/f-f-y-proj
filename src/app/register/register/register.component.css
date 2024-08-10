@@ -106,3 +106,151 @@
     border: none;
     border-radius: 50px;
 }
+
+
+
+@media screen and (min-width:500px) and (max-width:579px) {
+ 
+    .gray{
+        width: 340px;
+        height: 1150px;
+        background-color: #f2f4fa;
+        border: 0px solid #ebf1f6;
+        border-radius: 10px;
+        position: absolute;
+        top: 355px;
+        left:  110px;
+    
+        
+    }
+    .card {
+        margin: auto;
+        width: 300px;
+        height:1200px;
+        margin-top: 90px;
+        margin-bottom: 30px;
+        text-align: right;
+        padding: 35px 25px;
+        background-color: #fff;
+        border: 0px solid #ebf1f6;
+        border-radius: 12px;
+        box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    }   
+ 
+}
+@media screen and (min-width:580px) and (max-width:677px) {
+ 
+    .gray{
+        width: 340px;
+        height: 1150px;
+        background-color: #f2f4fa;
+        border: 0px solid #ebf1f6;
+        border-radius: 10px;
+        position: absolute;
+        top: 355px;
+        left:  110px;
+    
+        
+    }
+    .card {
+        margin: auto;
+        width: 400px;
+        height:1200px;
+        margin-top: 90px;
+        margin-bottom: 30px;
+        text-align: right;
+        padding: 35px 25px;
+        background-color: #fff;
+        border: 0px solid #ebf1f6;
+        border-radius: 12px;
+        box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    }   
+ 
+}
+@media screen and (min-width:678px) and (max-width:771px) {
+ 
+    .gray{
+        width: 340px;
+        height: 1150px;
+        background-color: #f2f4fa;
+        border: 0px solid #ebf1f6;
+        border-radius: 10px;
+        position: absolute;
+        top: 355px;
+        left:  310px;
+    
+        
+    }
+    .card {
+        margin: auto;
+        width: 400px;
+        height:1200px;
+        margin-top: 90px;
+        margin-bottom: 30px;
+        text-align: right;
+        padding: 35px 25px;
+        background-color: #fff;
+        border: 0px solid #ebf1f6;
+        border-radius: 12px;
+        box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    }   
+ 
+}
+@media screen and (min-width:772px) and (max-width:1025px) {
+ 
+    .gray{
+        width: 440px;
+        height: 750px;
+        background-color: #f2f4fa;
+        border: 0px solid #ebf1f6;
+        border-radius: 10px;
+        position: absolute;
+        top: 355px;
+        left:  310px;
+    
+        
+    }
+    .card {
+        margin: auto;
+        width: 450px;
+        height:800px;
+        margin-top: 90px;
+        margin-bottom: 30px;
+        text-align: right;
+        padding: 35px 25px;
+        background-color: #fff;
+        border: 0px solid #ebf1f6;
+        border-radius: 12px;
+        box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    }   
+ 
+}
+@media screen and (min-width:1026px) and (max-width:1250px) {
+ 
+    .gray{
+        width:640px;
+        height: 750px;
+        background-color: #f2f4fa;
+        border: 0px solid #ebf1f6;
+        border-radius: 10px;
+        position: absolute;
+        top: 355px;
+        left:  310px;
+    
+        
+    }
+    .card {
+        margin: auto;
+        width: 600px;
+        height:800px;
+        margin-top: 90px;
+        margin-bottom: 30px;
+        text-align: right;
+        padding: 35px 25px;
+        background-color: #fff;
+        border: 0px solid #ebf1f6;
+        border-radius: 12px;
+        box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    }   
+ 
+}
