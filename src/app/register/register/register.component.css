@@ -1,12 +1,12 @@
 .gray{
-    width: 800px;
-    height: 815px;
+    width: 820px;
+    height: 810px;
     background-color: #f2f4fa;
     border: 0px solid #ebf1f6;
     border-radius: 10px;
     position: absolute;
-    top: 155px;
-    left:  120px;
+    top: 355px;
+    left:  380px;
 
     
 }
@@ -15,7 +15,6 @@
     width: 750px;
     height:850px;
     margin-top: 90px;
-    margin-left: 130px;
     margin-bottom: 30px;
     text-align: right;
     padding: 35px 25px;
@@ -97,11 +96,7 @@
     margin: auto;
     
 }
-.top{
-    position: absolute;
-    top: 30px;
-    left: 0;
-}
+
 .form-select{
     width: 90px;
     height: 30px;
